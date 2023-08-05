@@ -34,6 +34,17 @@
           <a class="main-logo link" href="./index.html"
             >Web<span class="web-logo">Studio</span></a
           >
+
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="btn-toggle" width="32" height="22">
+              <use href="./images/icons.svg#icon-menu-hamburger"></use>
+            </svg>
+          </button>
+
           <ul class="main-spisok list">
             <li>
               <a class="spisok-item link" href="./index.html">Studio</a>
@@ -84,6 +95,7 @@
               <a class="link-card link" href="">
                 <div class="card-box">
                   <img
+                    class="img-portfolio"
                     src="./images/portfolio-img-1.jpg"
                     alt="Banking App Interface Concept"
                     width="360"
@@ -107,6 +119,7 @@
               <a class="link-card link" href="">
                 <div class="card-box">
                   <img
+                    class="img-portfolio"
                     src="./images/portfolio-img-2.jpg"
                     alt="Cashless Payment"
                     width="360"
@@ -128,6 +141,7 @@
               <a class="link-card link" href="">
                 <div class="card-box">
                   <img
+                    class="img-portfolio"
                     src="./images/portfolio-img-3.jpg"
                     alt="Meditation App"
                     width="360"
@@ -149,6 +163,7 @@
               <a class="link-card link" href="">
                 <div class="card-box">
                   <img
+                    class="img-portfolio"
                     src="./images/portfolio-img-4.jpg"
                     alt="Taxi Service"
                     width="360"
@@ -170,6 +185,7 @@
               <a class="link-card link" href="">
                 <div class="card-box">
                   <img
+                    class="img-portfolio"
                     src="./images/portfolio-img-5.jpg"
                     alt="Screen Illustrations"
                     width="360"
@@ -191,6 +207,7 @@
               <a class="link-card link" href="">
                 <div class="card-box">
                   <img
+                    class="img-portfolio"
                     src="./images/portfolio-img-6.jpg"
                     alt="Online Courses"
                     width="360"
@@ -212,6 +229,7 @@
               <a class="link-card link" href="">
                 <div class="card-box">
                   <img
+                    class="img-portfolio"
                     src="./images/portfolio-img-7.jpg"
                     alt="Instagram Stories Concept"
                     width="360"
@@ -233,6 +251,7 @@
               <a class="link-card link" href="">
                 <div class="card-box">
                   <img
+                    class="img-portfolio"
                     src="./images/portfolio-img-8.jpg"
                     alt="Organic Food"
                     width="360"
@@ -254,6 +273,7 @@
               <a class="link-card link" href="">
                 <div class="card-box">
                   <img
+                    class="img-portfolio"
                     src="./images/portfolio-img-9.jpg"
                     alt="Fresh Coffee"
                     width="360"
@@ -364,5 +384,103 @@
         </div>
       </div>
     </footer>
+
+    <!-- Menu toggle -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <div class="menu-modal">
+        <button class="btn-menu js-close-menu">
+          <svg class="btn-modal" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+
+        <nav>
+          <ul class="mobile-menu list">
+            <li>
+              <a class="menu-spisok-item link" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="menu-spisok-item link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a class="menu-spisok-item link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+
+        <address>
+          <ul class="menu-contacts list">
+            <li>
+              <a class="menu-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a class="menu-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <div class="social-list-menu">
+          <ul class="media-list-menu list">
+            <li class="media-item-menu">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                class="link-menu-social link"
+              >
+                <svg class="icon-soc-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-item-menu">
+              <a
+                href="https://www.twitter.com/"
+                target="_blank"
+                class="link-menu-social link"
+              >
+                <svg class="icon-soc-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-item-menu">
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                class="link-menu-social link"
+              >
+                <svg class="icon-soc-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="media-item-menu">
+              <a
+                href="https://ua.linkedin.com/"
+                target="_blank"
+                class="link-menu-social link"
+              >
+                <svg class="icon-soc-menu" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
   </body>
 </html>

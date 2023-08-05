@@ -1185,7 +1185,6 @@ input::placeholder {
     width: 110px;
   }
   .customers-item {
-    width: 428px;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 16px;
@@ -1193,6 +1192,10 @@ input::placeholder {
   }
   .client-list {
     width: calc((100% - 16px) / 2);
+  }
+  .footer-container {
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
   .footsocial {
     flex-direction: column;
@@ -1204,6 +1207,9 @@ input::placeholder {
     margin-right: 0;
   }
   .footerlo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-right: 0;
   }
   .footer-form {
@@ -1230,6 +1236,37 @@ input::placeholder {
   }
   .subscr-btn {
     width: 165px;
+  }
+  .modal {
+    width: 392px;
+    padding: 72px 16px 24px 16px;
+  }
+
+  .section-portfolio {
+    padding: 48px 0 48px 0;
+  }
+  .project-container {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .card {
+    width: 100%;
+  }
+  .card-box {
+    width: 396px;
+    height: 280px;
+  }
+  .link-card {
+    width: 396px;
+  }
+  .img-portfolio {
+    width: 396px;
+    height: 280px;
+  }
+  .funct-container {
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-bottom: 48px;
   }
 }
 
@@ -1333,5 +1370,23 @@ input::placeholder {
   }
   .footer-form {
     margin: 0;
+  }
+  .modal {
+    padding: 72px 25px 24px 23px;
+  }
+  .section-portfolio {
+    padding: 64px 0 96px 0;
+  }
+  .project-container {
+    row-gap: 72px;
+  }
+  .card {
+    width: calc((100% - 24px) / 2);
+  }
+  .card-box {
+    width: 356px;
+  }
+  .link-card {
+    width: 356px;
   }
 }
