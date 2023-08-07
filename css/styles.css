@@ -1122,8 +1122,9 @@ textarea {
 }
 input::placeholder {
   color: var(--white);
-  /*--------------------------------------  */
 }
+
+/*--------------------------------------  */
 @media (min-width: 428px) {
   .modal {
     width: 408px;
@@ -1353,7 +1354,7 @@ input::placeholder {
 @media (min-width: 768px) and (max-width: 1157px) {
   .container {
     max-width: 1157px;
-    min-width: 768px;
+    width: 768px;
   }
   .page-nav {
     width: 768px;
@@ -1431,10 +1432,12 @@ input::placeholder {
     /* общее с 428-767 */
   }
   .customers-item {
-    width: 552px;
+    width: 768px;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
+    padding-right: 108px;
+    padding-left: 108px;
     margin: 0 auto;
   }
   .client-list {
