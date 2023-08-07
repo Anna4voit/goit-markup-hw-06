@@ -714,10 +714,10 @@ textarea {
   display: flex;
   flex-direction: column;
   gap: 72px;
-  /* width: 320px; */
+  width: 264px;
   margin: 0 auto;
-  /* padding-left: 12px; */
-  /* padding-right: 15px; */
+  /* padding-left: 28px;
+  padding-right: 28px; */
 }
 
 .foto {
@@ -1122,6 +1122,7 @@ textarea {
 }
 input::placeholder {
   color: var(--white);
+  /*--------------------------------------  */
 }
 @media (min-width: 428px) {
   .modal {
@@ -1223,10 +1224,11 @@ input::placeholder {
   .team-container {
     flex-direction: column;
     gap: 72px;
-    padding-left: 82px;
+    /* padding-left: 82px;
     padding-right: 82px;
-    width: 428px;
+    width: 428px; */
     margin: 0 auto;
+    width: 264px;
   }
   .foto {
     width: 100%;
@@ -1534,7 +1536,7 @@ input::placeholder {
     padding: 120px 0;
   }
   .team-container {
-    /* width: 1158px; */
+    width: 1128px;
     gap: 24px;
   }
   .foto {
