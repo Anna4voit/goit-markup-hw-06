@@ -1,6 +1,25 @@
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .main-content {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/tablet-Dark-bg@2x.jpg);
+  }
+}
 @media screen and (min-width: 428px) {
   .container {
     max-width: 768px;
+  }
+  .main-content {
+    max-width: 768px;
+  }
+  .main-title {
+    max-width: 320px;
+    font-size: 36px;
+  }
+  .order-service {
+    margin-top: 72px;
   }
   .section-two > .container {
     width: 428px;
@@ -11,10 +30,76 @@
   .customers-page > .container {
     width: 428px;
   }
+  .footsocial {
+    width: 428px;
+  }
+  .subscr-input {
+    width: 398px;
+  }
+  .menu-container {
+    padding: 80px 35px 40px 40px;
+  }
+  .mobile-menu {
+    gap: 40px;
+    margin-bottom: 284px;
+  }
+  .menu-spisok-item {
+    font-size: 36px;
+  }
+  .menu-link:hover,
+  .menu-link:focus {
+    font-size: 36px;
+  }
+  .media-list-menu {
+    gap: 56px;
+  }
+  .modal {
+    width: 392px;
+    padding: 72px 16px 24px 16px;
+  }
+  .modal-link {
+    margin-left: 0;
+  }
+  .btn-send {
+    min-width: 169px;
+    height: 56px;
+  }
+  .section-portfolio {
+    width: 468px;
+  }
+  .project-container {
+    width: 396px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
     max-width: 1158px;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .page-nav {
+    max-width: 768px;
+  }
+  .main-logo {
+    margin-right: 120px;
+  }
+  .main-spisok {
+    display: flex;
+  }
+  .main-contacts {
+    display: block;
+  }
+  .main-content {
+    max-width: 1158px;
+  }
+  .main-title {
+    max-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+  .order-service {
+    margin-top: 36px;
   }
   .section-two > .container {
     width: 768px;
@@ -28,9 +113,6 @@
   .team-container {
     gap: 64px 24px;
     width: 552px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin: 0 auto;
   }
   .foto {
     width: calc((100% - 24px) / 2);
@@ -47,12 +129,87 @@
   .client-list {
     width: calc((100% - 2 * 24px) / 3);
   }
+  .footsocial {
+    width: 768px;
+    padding-left: 108px;
+    gap: 0;
+  }
+  .footerlo {
+    align-items: start;
+    margin: 0 24px 72px 0;
+  }
+  .social-list {
+    margin: 0;
+    align-items: start;
+  }
+  .footer-form {
+    margin: 0;
+  }
+  .subscr-form {
+    flex-direction: row;
+  }
+  .subscr-text {
+    text-align: start;
+  }
+  .subscr-input {
+    width: 264px;
+  }
+  .modal {
+    width: 408px;
+    padding: 72px 25px 24px 23px;
+  }
+  .section-portfolio {
+    width: 736px;
+    padding: 64px 0 96px 0;
+    margin: 0 auto;
+  }
+  .funct-container {
+    justify-content: center;
+    margin-bottom: 64px;
+    width: 100%;
+  }
+  .functional {
+    padding: 12px 24px;
+  }
+  .section-portfolio {
+    width: 768px;
+    padding: 64px 0 96px 0;
+  }
+  .project-container {
+    gap: 72px 24px;
+    width: 736px;
+  }
+  .card {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1440px;
     padding: 0 15px;
+  }
+  .page-nav {
+    max-width: 1158px;
+  }
+  .main-logo {
+    margin-right: 76px;
+  }
+  .main-contacts ul {
+    flex-direction: row;
+    gap: 40px;
+    margin: 0;
+  }
+  .contacts a {
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
+  .main-content {
+    max-width: 1440px;
+    padding: 188px 0;
+  }
+  .order-service {
+    margin-top: 48px;
   }
   .section-two > .container {
     width: 1158px;
@@ -99,6 +256,11 @@
   .customers-page > .container {
     width: 1158px;
   }
+  .customers-page {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
   .customers-item {
     gap: 24px;
     flex-direction: row;
@@ -108,5 +270,35 @@
   }
   .client-list {
     width: calc((100% - 5 * 24px) / 6);
+  }
+  .footer-container {
+    padding: 100px 0;
+  }
+  .footsocial {
+    width: 1128px;
+  }
+  .footerlo {
+    margin: 0 120px 0 0;
+  }
+  .footer-form {
+    margin-left: auto;
+  }
+  .modal {
+    padding: 72px 24px 24px 24px;
+  }
+  .section-portfolio {
+    width: 1158px;
+    padding: 100px 0 120px 0;
+  }
+  .funct-container {
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+  .project-container {
+    gap: 48px 24px;
+    width: 1128px;
+  }
+  .card {
+    width: calc((100% - 2 * 24px) / 3);
   }
 }
