@@ -4,7 +4,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/tablet-Dark-bg@2x.jpg);
+      url(../images/Dark-bg@2x.jpg);
   }
 }
 @media screen and (min-width: 428px) {
@@ -65,7 +65,7 @@
     height: 56px;
   }
   .section-portfolio {
-    width: 468px;
+    width: 428px;
   }
   .project-container {
     width: 396px;
