@@ -484,6 +484,9 @@ textarea {
   z-index: 999;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .menu-container.is-open {
@@ -568,7 +571,7 @@ textarea {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-bottom: 184px;
+  padding-bottom: 50px;
 }
 
 .menu-spisok-item:hover,
